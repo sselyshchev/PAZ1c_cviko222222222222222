@@ -1,4 +1,8 @@
 package sk.upjs.paz;
 
-public record GenderRatio() {
+public record GenderRatio(
+        double boys,
+        double girls,
+        double unknowns
+){
 }
